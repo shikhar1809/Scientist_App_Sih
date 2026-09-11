@@ -46,3 +46,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Windows shortcuts hold absolute paths; use "Run Scientist Outreach Portal.bat" instead
+*.lnk
