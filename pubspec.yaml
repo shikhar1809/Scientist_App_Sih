@@ -1,4 +1,4 @@
-﻿name: scientist_outreach_portal
+name: scientist_outreach_portal
 description: Scientist Outreach Portal â€” offline-first desktop app for Antarctic scientists.
 publish_to: none
 version: 1.0.0+1
@@ -12,11 +12,6 @@ dependencies:
     sdk: flutter
 
   # Firebase
-  firebase_core: ^3.6.0
-  firebase_auth: ^5.3.1
-  cloud_firestore: ^5.4.3
-  firebase_storage: ^12.3.2
-
   # Local storage (SQLite â€” works on Windows/Linux/macOS/Android/iOS)
   sqflite: ^2.3.3+1
   sqflite_common_ffi: ^2.3.3   # required for desktop targets
@@ -37,11 +32,15 @@ dependencies:
 
   # PIN hashing
   crypto: ^3.0.3
+  http: ^1.6.0
+  image: ^4.9.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  path_provider_platform_interface: ^2.1.3
+  plugin_platform_interface: ^2.1.8
 
 flutter:
   uses-material-design: true

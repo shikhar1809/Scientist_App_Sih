@@ -49,3 +49,6 @@ app.*.map.json
 
 # Windows shortcuts hold absolute paths; use "Run Scientist Outreach Portal.bat" instead
 *.lnk
+
+# the previous build, set aside while it was still running
+*.exe.old
